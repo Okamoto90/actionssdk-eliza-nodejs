@@ -1,16 +1,6 @@
 {
   "actions": [
-    {
-      "description": "Default Welcome Intent",
-      "name": "MAIN",
-      "fulfillment": {
-        "conversationName": "welcome"
-      },
-      "intent": {
-        "name": "actions.intent.MAIN"
-      }
-    },
-    {
+   {
       "description": "Eliza response",
       "name": "Raw input",
       "fulfillment": {
@@ -38,13 +28,9 @@
     }
   ],
   "conversations": {
-    "welcome": {
-      "name": "welcome",
-      "url": "https://testactionsdk.herokuapp.com/"
-    },
-    "rawInput": {
+   "rawInput": {
       "name": "rawInput",
-      "url": "https://testactionsdk.herokuapp.com/"
+      "url": "https://testactionsdk.herokuapp.com/eliza"
     }
   }
 }
